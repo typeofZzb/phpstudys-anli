@@ -106,17 +106,17 @@ export default {
             margin-top: pxTorem(38px);
             h3 {
                 line-height: pxTorem(29px);
-                font-size: 30px;
+                font-size:  pxTorem(15px);
             }
             span {
                 display: inline-block;
                 width: 47%;
                 background: #F5F5F5;
                 height: pxTorem(37px);
-                border-radius: 5px;
+                border-radius:  pxTorem(2.5px);
                 line-height: pxTorem(37px);
                 text-align: center;
-                font-size: 30px;
+                font-size:  pxTorem(15px);
                 margin: pxTorem(10px) pxTorem(8px) pxTorem(10px) 0;
             }
             span.active {
@@ -132,7 +132,7 @@ export default {
         box-shadow: pxTorem(-3px) pxTorem(0px) pxTorem(10px) pxTorem(0px) #D4D4D4;
         @include box_flex;
         >div {
-             font-size: 30px;
+             font-size:  pxTorem(15px);
             @include box_flex;
             @include justify;
             @include align;

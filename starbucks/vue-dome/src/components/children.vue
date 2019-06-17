@@ -97,7 +97,7 @@ export default {
             right: 5%;
             .iconfont {
                 font-size: pxTorem(14px);
-                padding-left: 10px;
+                padding-left: pxTorem(5px);
             }
         }
         ul {
@@ -131,14 +131,14 @@ export default {
             right: pxTorem(20px);
             bottom: pxTorem(24px);
             background: #096242;
-            font-size: 30px;
+            font-size: pxTorem(15px);
             color: #fff;
             border-radius: pxTorem(23px);
             @include box_flex;
             @include justify;
             @include align;
             i{
-                padding-right: 10px;
+                padding-right: pxTorem(5px);
             }
         }
     }

@@ -84,7 +84,7 @@ export default {
             i {
                 display: inline-block;
                 width: pxTorem(24px);
-                font-size: 30px;
+                font-size: pxTorem(15px);
                 color: #C5C6CA;
                 @include box_flex;
                 @include justify;
@@ -97,7 +97,7 @@ export default {
                 outline: none;
                 border: none;
                 background: transparent;
-                font-size: 30px;
+                font-size: pxTorem(15px);
                 color: #C5C6CA
             }
         }

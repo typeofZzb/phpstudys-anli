@@ -47,7 +47,7 @@ export default {
     height: pxTorem(34px);
     display: flex;
     .iconfont {
-      font-size: 32px;
+      font-size: pxTorem(16px);
     }
     .xiangzuo {
       @include box_flex;
@@ -72,7 +72,7 @@ export default {
       @include box_flex;
       @include justify;
       @include align;
-      font-size: 32px;
+      font-size: pxTorem(16px);
     }
   }
   .header-top{

@@ -72,11 +72,11 @@ export default {
       padding: pxTorem(12px) pxTorem(25px) pxTorem(32px) pxTorem(25px);
       position: relative;
       b{
-          font-size: 40px;
+          font-size: pxTorem(20px);
         //   font-weight: 800;
       }
       h3{
-          font-size: 43px;
+          font-size: pxTorem(22.5px);
           font-weight: 800;
       }
 
@@ -96,7 +96,7 @@ export default {
                 height: 100%;
               border: none;
               outline: none;
-              font-size: 30px;
+              font-size: pxTorem(15px);
             //   padding-left: 15px;
             color:#91918F;
               border-bottom: 1px solid #91918F;
@@ -108,7 +108,7 @@ export default {
            border-radius: pxTorem(18px);
            background: #D4D4D4;
            color:#fff;
-           font-size: 24px;
+           font-size: pxTorem(12px);
             border: none;
             outline: none;
             margin: pxTorem(60px) 0 pxTorem(30px) 0;
@@ -116,7 +116,7 @@ export default {
       .link{
            width: 100%;
            height: pxTorem(30px);
-            font-size: 24px;
+            font-size: pxTorem(12px);
             text-align: center;
             line-height:pxTorem(30px);
             color:#14A268; 

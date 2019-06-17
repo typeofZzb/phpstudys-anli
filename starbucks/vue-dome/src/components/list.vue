@@ -72,7 +72,7 @@ export default {
     margin-bottom: pxTorem(11px);
     box-sizing: border-box;
     padding: 0 pxTorem(18px);
-    font-size: 26px;
+    font-size: pxTorem(13px);
     p {
         span {
             color: #BEBEBE;

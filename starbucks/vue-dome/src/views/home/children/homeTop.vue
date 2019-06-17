@@ -72,7 +72,7 @@ export default {
       @include align;
       @include direction(column);
       color: #DBDBDB;
-      font-size: 35px;
+      font-size: pxTorem(17.5px);
      }
      .active{
        color:#0A6141;
